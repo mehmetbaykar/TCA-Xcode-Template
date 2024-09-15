@@ -16,7 +16,7 @@ The Composable Architecture is a library for building modular, predictable, and 
 This template is compatible with the following:
 
 - **TCA Version**: Designed to work with **TCA 1.15.0**, which includes the new **Reducer Macro**.
-- **Swift Version**: Requires **Swift 6.0** or higher.
+- **Swift Version**: Requires **Swift 5.9** or higher.
 - **Xcode Version**: Tested with **Xcode 16.0 RC**.
 
 ## Installation Instructions
