@@ -7,7 +7,7 @@ This repository provides a **TCA (The Composable Architecture) Template** for Xc
 
 ## TCA Architecture
 
-![TCA Architecture](https://github.com/mehmetbaykar/TCA-Xcode-Template/blob/main/Images/image_tca_graph.webp?raw=true)
+![TCA Architecture](https://github.com/mehmetbaykar/TCA-Xcode-Template/blob/master/Images/image_tca_graph.webp?raw=true)
 
 ## Compatibility
 
