@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Template Type -->
+    <key>Kind</key>
+    <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+    
+    <!-- Supported Platforms -->
+    <key>Platforms</key>
+    <array>
+        <string>com.apple.platform.iphoneos</string>   <!-- iOS -->
+        <string>com.apple.platform.watchos</string>    <!-- watchOS -->
+        <string>com.apple.platform.macosx</string>     <!-- macOS -->
+        <string>com.apple.platform.appletvos</string>  <!-- tvOS -->
+    </array>
+
+    <!-- Template Metadata -->
+    <key>Description</key>
+    <string>Generates both Feature and View files using TCA for the specified feature name.</string>
+    
+    <key>Summary</key>
+    <string>This template creates a structured TCA setup with Feature and View files based on the provided feature name.</string>
+    
+    <key>SortOrder</key>
+    <string>1</string>
+
+    <!-- Default File Name -->
+    <key>DefaultCompletionName</key>
+    <string>___VARIABLE_moduleName___</string>
+
+    <!-- File Types -->
+    <key>AllowedTypes</key>
+    <array>
+        <string>public.swift-source</string>
+    </array>
+    
+    <!-- Template Options -->
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Description</key>
+            <string>Enter the name of the feature</string>
+            <key>Identifier</key>
+            <string>moduleName</string>
+            <key>Name</key>
+            <string>Feature Name:</string>
+            <key>Required</key>
+            <true/>
+            <key>Type</key>
+            <string>text</string>
+        </dict>
+    </array>
+
+    <key>Definitions</key>
+    <array>
+        <!-- Define the folder with the moduleName -->
+        <dict>
+            <key>Identifier</key>
+            <string>moduleFolder</string>
+            <key>Type</key>
+            <string>folder</string>
+            <key>Path</key>
+            <string>___VARIABLE_moduleName___</string>
+        </dict>
+
+        <!-- Feature File inside the folder -->
+        <dict>
+            <key>Identifier</key>
+            <string>featureFile</string>
+            <key>Type</key>
+            <string>file</string>
+            <key>FileName</key>
+            <string>___VARIABLE_moduleName___Feature.swift</string>
+            <key>Path</key>
+            <string>___VARIABLE_moduleName___/___VARIABLE_moduleName___Feature.swift</string>
+        </dict>
+
+        <!-- View File inside the folder -->
+        <dict>
+            <key>Identifier</key>
+            <string>viewFile</string>
+            <key>Type</key>
+            <string>file</string>
+            <key>FileName</key>
+            <string>___VARIABLE_moduleName___View.swift</string>
+            <key>Path</key>
+            <string>___VARIABLE_moduleName___/___VARIABLE_moduleName___View.swift</string>
+        </dict>
+    </array>
+
+    <!-- Additional Metadata -->
+    <key>Identifier</key>
+    <string>com.mehmetbaykar.TCAFeatureTemplate</string>
+    <key>Author</key>
+    <string>Mehmet Baykar</string>
+    <key>Version</key>
+    <string>1.0</string>
+
+</dict>
+</plist>
