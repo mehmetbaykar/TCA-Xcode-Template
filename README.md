@@ -45,9 +45,6 @@ Follow the steps below to install the Xcode TCA template:
 ### 4. Use the Template in Xcode
 - Open Xcode, start a new project, and when you add a new file, the `Feature` template should be available in the options.
 
-
-# Xcode TCA Template
-
 ## Folder Structure
 
 Let's walk through an example of using this template. Imagine you're adding a feature called `AddItem` using this template. The resulting folder structure would look like this:
