@@ -10,7 +10,6 @@ public struct ___VARIABLE_moduleName___Feature {
     public enum Action: Equatable {
         case setTitle(String)
         case onAppear
-        case onDisappear
     }
 
     public var body: some Reducer<State, Action> {
@@ -21,9 +20,6 @@ public struct ___VARIABLE_moduleName___Feature {
                 return .none
 
             case .onAppear:
-                return .none
-
-            case .onDisappear:
                 return .none
             }
         }

@@ -12,9 +12,6 @@ struct ___VARIABLE_moduleName___View: View {
         .onAppear {
             store.send(.onAppear)
         }
-        .onDisappear {
-            store.send(.onDisappear)
-        }
     }
 }
 
