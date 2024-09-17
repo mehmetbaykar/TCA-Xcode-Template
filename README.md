@@ -81,7 +81,6 @@ public struct AddItemFeature {
     public enum Action: Equatable {
         case setTitle(String)
         case onAppear
-        case onDisappear
     }
 
     public var body: some Reducer<State, Action> {
@@ -90,10 +89,6 @@ public struct AddItemFeature {
             case let .setTitle(title):
                 state.title = title
                 return .none
-
-            case .onAppear, .onDisappear:
-                return .none
-            }
         }
     }
 }
@@ -117,9 +112,6 @@ struct AddItemView: View {
         .navigationTitle(Text(store.title))
         .onAppear {
             store.send(.onAppear)
-        }
-        .onDisappear {
-            store.send(.onDisappear)
         }
     }
 }
