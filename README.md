@@ -89,6 +89,10 @@ public struct AddItemFeature {
             case let .setTitle(title):
                 state.title = title
                 return .none
+
+            case .onAppear:
+                return .none
+            }
         }
     }
 }
