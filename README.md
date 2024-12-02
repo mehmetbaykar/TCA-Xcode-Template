@@ -150,3 +150,7 @@ Feel free to try out the template and share any feedback or issues you may encou
 - [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture)
 - [Pointfree](https://www.pointfree.co)
 - [Xcode Project and File Templates](https://www.kodeco.com/26582967-xcode-project-and-file-templates)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mehmetbaykar/TCA-Xcode-Template&type=Date)](https://star-history.com/#mehmetbaykar/TCA-Xcode-Template&Date)
