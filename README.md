@@ -5,6 +5,14 @@
 
 This repository provides a **TCA (The Composable Architecture) Template** for Xcode, making it easy for developers to scaffold projects with TCA support quickly. The template is pre-configured to take advantage of the latest **TCA** and **SwiftUI** features, allowing for more structured and maintainable Swift apps.
 
+<p align="center">
+If you found this helpful, you can support more open source work!
+<br><br>
+<a href="https://buymeacoffee.com/mehmetbaykar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60"></a>
+</p>
+
+---
+
 ## TCA Architecture
 
 The Composable Architecture is a library for building modular, predictable, and testable applications. Below is a visual representation of its architecture:
